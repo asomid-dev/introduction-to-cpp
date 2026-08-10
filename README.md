@@ -1,6 +1,6 @@
 # 🚀 Guia Bàsica de C++ (C Plus Plus)
 
-A beginner-friendly C++ guide built for the PRO1 course (UPC-FIB). 
+Una guia de C++ pensada per a principiants de l'assignatura de PRO1 (UPC-FIB).
 
 Aquest repositori està pensat per ajudar els estudiants a entendre C++ des de zero. Aquí trobaràs la teoria ben mastegada, exemples pràctics i els trucs que et salvaran dels errors més comuns de compilació.
 
@@ -15,7 +15,7 @@ En cas que utilitzeu Windows, podeu instal·lar una terminal Linux de la següen
 <details>
 <summary>🪟 <strong>Instal·lació WSL (Windows Subsystem for Linux)</strong></summary>
 
-1. Obriu una terminal PowerShell i executeu: 
+**1. Obriu una terminal PowerShell i executeu:**
 
 ```PowerShell 
 wsl.exe --install -d [Distro]
@@ -28,7 +28,7 @@ wsl.exe --install -d Ubuntu
 
 Us demanarà que poseu una contrasenya i coses vàries; només heu d'emplenar la informació que us demanen.
 
-2. Un cop instal·lat WSL, heu d'obrir Ubuntu i actualitzar i instal·lar el compilador:
+**2. Un cop instal·lat WSL, heu d'obrir Ubuntu i actualitzar i instal·lar el compilador:**
 ```PowerShell
 # Primer a PowerShell obrim WSL amb l'ordre:
 wsl.exe
@@ -49,9 +49,9 @@ sudo apt install build-essential
 El contingut es divideix per temes en les següents carpetes:
 
 - **📂 1. Com funciona C++ i com compilar:** L'essencial per arrencar. Funcionament, variables i condicions.
-- **📂 2. Iteracions (_Bucles_):** Estructures de repetició i lectura seqüencial de dades.
-- **📂 3. Contenidors:** Com emmagatzemar informació (vectors, matrius...).
-- **📂 4. Recursivitat (_Totalment Opcional_):** Aquest és opcional perquè s'explica a la 2a meitat de PRO1.
+- **📂 2. Iteracions (_Bucles_) WIP:** Estructures de repetició i lectura seqüencial de dades. 
+- **📂 3. Contenidors WIP:** Com emmagatzemar informació (vectors, matrius...).
+- **📂 4. Recursivitat WIP:** Aquest temari s'explica a la 2a meitat de PRO1.
 
 **Cada carpeta té:**
 - 📖 Un arxiu **`TEMARI.md`** amb una explicació dels continguts (teoria).
@@ -63,6 +63,8 @@ El contingut es divideix per temes en les següents carpetes:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asomid/) 
 [![Twitter/X](https://img.shields.io/badge/Twitter%2FX-%23000000.svg?logo=x&logoColor=white)](https://x.com/b3ak01)
 [![Discord](https://img.shields.io/badge/Discord-aso-%235865F2.svg?logo=discord&logoColor=white)](https://discord.gg/JhzSdGkU)
+
+> **Nota:** Si us plau, utilitzeu l'enllaç de Discord **únicament** per a dubtes relacionats amb el temari, els exercicis o l'assignatura de PRO1.
 
 ## Author
 
