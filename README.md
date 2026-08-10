@@ -51,7 +51,7 @@ El contingut es divideix per temes en les següents carpetes:
 - **📂 1. Com funciona C++ i com compilar:** L'essencial per arrencar. Funcionament, variables i condicions.
 - **📂 2. Iteracions (_Bucles_) WIP:** Estructures de repetició i lectura seqüencial de dades. 
 - **📂 3. Contenidors WIP:** Com emmagatzemar informació (vectors, matrius...).
-- **📂 4. Recursivitat WIP:** Aquest temari s'explica a la 2a meitat de PRO1.
+- **📂 4. Recursivitat WIP:** Aquest temari s'explica a la 2na meitat de PRO1.
 
 **Cada carpeta té:**
 - 📖 Un arxiu **`TEMARI.md`** amb una explicació dels continguts (teoria).
