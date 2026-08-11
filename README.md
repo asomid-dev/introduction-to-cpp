@@ -68,4 +68,4 @@ El contingut es divideix per temes en les següents carpetes:
 
 ## Author
 
-[![GitHub](https://img.shields.io/badge/asomiD--cat-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/asomiD-cat)
+[![GitHub](https://img.shields.io/badge/asomid--dev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/asomid-dev)
