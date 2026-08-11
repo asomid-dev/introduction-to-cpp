@@ -49,7 +49,7 @@ sudo apt install build-essential
 El contingut es divideix per temes en les següents carpetes:
 
 ### PRIMERA MEITAT
-- **📂 1. Funcionament Cpp i CompilarCode:** L'essencial per arrencar. Funcionament, variables i condicions.
+- **📂 1. Funcionament Cpp i Compilar:** L'essencial per arrencar. Funcionament, variables i condicions.
 - **📂 2. Iteracions (_Bucles_):** Estructures de repetició i lectura seqüencial de dades.
 - **📂 3. Funcions:** Com fer funcions auxiliars que executin un codi específic. 
 - **📂 4. Vectors WIP:** Com emmagatzemar informació en seqüències unidimensionals.
