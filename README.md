@@ -48,11 +48,16 @@ sudo apt install build-essential
 
 El contingut es divideix per temes en les següents carpetes:
 
-- **📂 1. Com funciona C++ i com compilar:** L'essencial per arrencar. Funcionament, variables i condicions.
+### PRIMERA MEITAT
+- **📂 1. Funcionament Cpp i CompilarCode:** L'essencial per arrencar. Funcionament, variables i condicions.
 - **📂 2. Iteracions (_Bucles_):** Estructures de repetició i lectura seqüencial de dades.
 - **📂 3. Funcions WIP:** Com fer funcions auxiliars que executin un codi específic. 
-- **📂 4. Contenidors WIP:** Com emmagatzemar informació (vectors, matrius...).
-- **📂 5. Recursivitat WIP:** Aquest temari s'explica a la 2na meitat de PRO1.
+- **📂 4. Vectors WIP:** Com emmagatzemar informació en seqüències unidimensionals.
+
+### SEGONA MEITAT
+- **📂 5. Recursivitat WIP:** Tècnica on una funció es crida a si mateixa per resoldre problemes més petits.
+- **📂 6. Algorismes Fonamentals WIP:** Mètodes clàssics per cercar i ordenar dades eficientment (cerca dicotòmica, ordenació per inserció...).
+- **📂 7. Matrius WIP:** Com emmagatzemar informació en estructures bidimensionals (taules).
 
 **Cada carpeta té:**
 - 📖 Un arxiu **`TEMARI.md`** amb una explicació dels continguts (teoria).
