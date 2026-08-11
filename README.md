@@ -51,7 +51,7 @@ El contingut es divideix per temes en les següents carpetes:
 ### PRIMERA MEITAT
 - **📂 1. Funcionament Cpp i CompilarCode:** L'essencial per arrencar. Funcionament, variables i condicions.
 - **📂 2. Iteracions (_Bucles_):** Estructures de repetició i lectura seqüencial de dades.
-- **📂 3. Funcions WIP:** Com fer funcions auxiliars que executin un codi específic. 
+- **📂 3. Funcions:** Com fer funcions auxiliars que executin un codi específic. 
 - **📂 4. Vectors WIP:** Com emmagatzemar informació en seqüències unidimensionals.
 
 ### SEGONA MEITAT
@@ -60,7 +60,7 @@ El contingut es divideix per temes en les següents carpetes:
 - **📂 7. Matrius WIP:** Com emmagatzemar informació en estructures bidimensionals (taules).
 
 **Cada carpeta té:**
-- 📖 Un arxiu **`TEMARI.md`** amb una explicació dels continguts (teoria).
+- 📖 Un arxiu **`TEMARI.md`** amb una explicació dels continguts (teoria). Us recomano copiar i enganxar el contingut de **`TEMARI.md`** a [Markdown Live Preview](https://markdownlivepreview.com/).
 - 💻 Una carpeta **`Code`** amb arxius `.cpp` amb codi d'exemple (amb comentaris).
 - 🎯 Un arxiu **`final.cpp`**. En aquest arxiu, el codi implementat contindrà tots els elements explicats al tema.
 
