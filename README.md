@@ -52,12 +52,13 @@ El contingut es divideix per temes en les següents carpetes:
 - **📂 1. Funcionament Cpp i Compilar:** L'essencial per arrencar. Funcionament, variables i condicions.
 - **📂 2. Iteracions (_Bucles_):** Estructures de repetició i lectura seqüencial de dades.
 - **📂 3. Funcions:** Com fer funcions auxiliars que executin un codi específic. 
-- **📂 4. Vectors WIP:** Com emmagatzemar informació en seqüències unidimensionals.
+- **📂 4. Structs:** Com agrupar diferents variables sota un mateix nom per crear tipus de dades personalitzats.
+- **📂 5. Vectors WIP:** Com emmagatzemar informació en seqüències unidimensionals.
 
 ### SEGONA MEITAT
-- **📂 5. Recursivitat WIP:** Tècnica on una funció es crida a si mateixa per resoldre problemes més petits.
-- **📂 6. Algorismes Fonamentals WIP:** Mètodes clàssics per cercar i ordenar dades eficientment (cerca dicotòmica, ordenació per inserció...).
-- **📂 7. Matrius WIP:** Com emmagatzemar informació en estructures bidimensionals (taules).
+- **📂 6. Recursivitat WIP:** Tècnica on una funció es crida a si mateixa per resoldre problemes més petits.
+- **📂 7. Algorismes Fonamentals WIP:** Mètodes clàssics per cercar i ordenar dades eficientment (cerca dicotòmica, ordenació per inserció...).
+- **📂 8. Matrius WIP:** Com emmagatzemar informació en estructures bidimensionals (taules).
 
 **Cada carpeta té:**
 - 📖 Un arxiu **`TEMARI.md`** amb una explicació dels continguts (teoria). Us recomano copiar i enganxar el contingut de **`TEMARI.md`** a [Markdown Live Preview](https://markdownlivepreview.com/).
