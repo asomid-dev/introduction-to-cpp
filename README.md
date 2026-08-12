@@ -61,7 +61,7 @@ El contingut es divideix per temes en les següents carpetes:
 - **📂 8. Matrius WIP:** Com emmagatzemar informació en estructures bidimensionals (taules).
 
 **Cada carpeta té:**
-- 📖 Un arxiu **`TEMARI.md`** amb una explicació dels continguts (teoria). Us recomano copiar i enganxar el contingut de **`TEMARI.md`** a [Markdown Live Preview](https://markdownlivepreview.com/).
+- 📖 Un arxiu **`TEMARI.md`** amb una explicació dels continguts (teoria).
 - 💻 Una carpeta **`Code`** amb arxius `.cpp` amb codi d'exemple (amb comentaris).
 - 🎯 Un arxiu **`final.cpp`**. En aquest arxiu, el codi implementat contindrà tots els elements explicats al tema.
 
