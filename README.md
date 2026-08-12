@@ -53,9 +53,9 @@ El contingut es divideix per temes en les següents carpetes:
 - **📂 2. Iteracions (_Bucles_):** Estructures de repetició i lectura seqüencial de dades.
 - **📂 3. Funcions:** Com fer funcions auxiliars que executin un codi específic. 
 - **📂 4. Structs:** Com agrupar diferents variables sota un mateix nom per crear tipus de dades personalitzats.
-- **📂 5. Vectors WIP:** Com emmagatzemar informació en seqüències unidimensionals.
+- **📂 5. Vectors:** Com emmagatzemar informació en seqüències unidimensionals.
 
-### SEGONA MEITAT
+### SEGONA MEITAT (WIP)
 - **📂 6. Recursivitat WIP:** Tècnica on una funció es crida a si mateixa per resoldre problemes més petits.
 - **📂 7. Algorismes Fonamentals WIP:** Mètodes clàssics per cercar i ordenar dades eficientment (cerca dicotòmica, ordenació per inserció...).
 - **📂 8. Matrius WIP:** Com emmagatzemar informació en estructures bidimensionals (taules).
