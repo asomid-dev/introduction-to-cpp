@@ -1,4 +1,4 @@
-# 🚀 Guia Bàsica de C++ (C Plus Plus)
+# 🚀 Guia Bàsica de C++
 
 Una guia de C++ pensada per a principiants de l'assignatura de PRO1 (UPC-FIB).
 
