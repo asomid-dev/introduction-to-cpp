@@ -56,9 +56,9 @@ El contingut es divideix per temes en les següents carpetes:
 - **📂 5. Vectors:** Com emmagatzemar informació en seqüències unidimensionals.
 
 ### SEGONA MEITAT (WIP)
-- **📂 6. Recursivitat WIP:** Tècnica on una funció es crida a si mateixa per resoldre problemes més petits.
-- **📂 7. Algorismes Fonamentals WIP:** Mètodes clàssics per cercar i ordenar dades eficientment (cerca dicotòmica, ordenació per inserció...).
-- **📂 8. Matrius WIP:** Com emmagatzemar informació en estructures bidimensionals (taules).
+- **📂 6. Recursivitat:** Tècnica on una funció es crida a si mateixa per resoldre problemes més petits.
+- **📂 7. Matrius WIP:** Com emmagatzemar informació en estructures bidimensionals (taules).
+- **📂 8. Algorismes Fonamentals WIP:** Mètodes clàssics per cercar i ordenar dades eficientment (cerca dicotòmica, ordenació per inserció...).
 
 **Cada carpeta té:**
 - 📖 Un arxiu **`TEMARI.md`** amb una explicació dels continguts (teoria).
