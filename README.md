@@ -57,13 +57,16 @@ El contingut es divideix per temes en les següents carpetes:
 
 ### SEGONA MEITAT (WIP)
 - **📂 6. Recursivitat:** Tècnica on una funció es crida a si mateixa per resoldre problemes més petits.
-- **📂 7. Matrius WIP:** Com emmagatzemar informació en estructures bidimensionals (taules).
+- **📂 7. Matrius:** Com emmagatzemar informació en estructures bidimensionals (taules).
 - **📂 8. Algorismes Fonamentals WIP:** Mètodes clàssics per cercar i ordenar dades eficientment (cerca dicotòmica, ordenació per inserció...).
 
 **Cada carpeta té:**
 - 📖 Un arxiu **`TEMARI.md`** amb una explicació dels continguts (teoria).
 - 💻 Una carpeta **`Code`** amb arxius `.cpp` amb codi d'exemple (amb comentaris).
 - 🎯 Un arxiu **`final.cpp`**. En aquest arxiu, el codi implementat contindrà tots els elements explicats al tema.
+
+## Agraïments
+- **Uri** per la seva col·laboració redactant i preparant tot el temari corresponent a les Matrius.
 
 ## Socials
 
