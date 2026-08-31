@@ -66,7 +66,7 @@ El contingut es divideix per temes en les següents carpetes:
 - 🎯 Un arxiu **`final.cpp`**. En aquest arxiu, el codi implementat contindrà tots els elements explicats al tema.
 
 ## Agraïments
-- **Uri** per la seva col·laboració redactant i preparant tot el temari corresponent a les Matrius.
+- [@ItssUri](https://github.com/ItssUri) per la seva col·laboració redactant i preparant tot el temari corresponent a les Matrius.
 
 ## Socials
 
