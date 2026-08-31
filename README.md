@@ -7,10 +7,11 @@ Aquest repositori està pensat per ajudar els estudiants a entendre C++ des de z
 ## 🛠️ Dependències
 
 Per començar a programar, necessitaràs:
-- Un [IDE](https://ca.wikipedia.org/wiki/Entorn_integrat_de_desenvolupament) (p. ex. [VSCode](https://code.visualstudio.com/), [Zed](https://zed.dev/), [neovim](https://neovim.io/)) 
-- Terminal Linux. 
+- Un [Editor de Codi](https://ca.wikipedia.org/wiki/Editor_de_codi_font) (p. ex. [VSCode](https://code.visualstudio.com/), [Zed](https://zed.dev/), [neovim](https://neovim.io/)) o un [IDE](https://ca.wikipedia.org/wiki/Entorn_integrat_de_desenvolupament) (p. ex. [Visual Studio 2026](https://visualstudio.microsoft.com/es/downloads/), [Xcode](https://developer.apple.com/xcode/) (MacOS))
+- Compilador de C++ 
+- Terminal Linux
 
-En cas que utilitzeu Windows, podeu instal·lar una terminal Linux de la següent forma:
+En cas que utilitzeu Windows, podeu instal·lar una terminal Linux i el compilador de C++ de la següent forma:
 
 <details>
 <summary>🪟 <strong>Instal·lació WSL (Windows Subsystem for Linux)</strong></summary>
@@ -41,6 +42,35 @@ sudo apt upgrade
 # Instal·lem el compilador de C++ (g++) i altres eines
 sudo apt install build-essential
 ```
+
+</details>
+
+En el cas de tenir Linux com a sistema operatiu, podeu seguir els següents passos:
+<details>
+<summary>🐧 <strong>Instal·lació del compilador a Linux</strong></summary>
+
+**1. Obriu una terminal.**
+
+**2. Actualitzeu els paquets del sistema:**
+```bash
+sudo apt update
+sudo apt upgrade
+```
+
+**3. Instal·leu el compilador de C++ (g++) i altres eines de compilació:**
+```bash
+sudo apt install build-essential
+```
+
+**4. Comproveu que s'ha instal·lat correctament:**
+```bash
+g++ --version
+```
+Hauria de mostrar la versió del compilador instal·lada.
+
+> **Nota:** Si utilitzeu una distribució diferent de Debian/Ubuntu (com Fedora, Arch, etc.), l'ordre d'instal·lació canvia:
+> - **Fedora:** `sudo dnf install gcc-c++`
+> - **Arch:** `sudo pacman -S base-devel`
 
 </details>
 
