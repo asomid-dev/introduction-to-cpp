@@ -1,7 +1,7 @@
 /*
- * EXERCICI FINAL PER ENSENYAR COM FUNCIONA TOT PLEGAT
- * EXEMPLE: CALCULADORA BÀSICA D'UN SOL ÚS.
- * FET PER: ASO
+ * Exercici Final
+ * Exemple: Calculadora Bàsica d'un Sol Ús.
+ * Fet per: aso
  */
 
 #include <iostream>
