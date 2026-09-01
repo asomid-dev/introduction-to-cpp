@@ -1,7 +1,7 @@
 /*
- * EXERCICI FINAL PER ENSENYAR COM FUNCIONA TOT PLEGAT
- * EXEMPLE: GESTOR DE NOTES AMB STRUCTS, VECTORS I FUNCIONS.
- * FET PER: ASO
+ * Exercici Final
+ * Exemple: Gestor de Notes Amb Structs, Vectors i Funcions.
+ * Fet per: aso
  */
 
 #include <iostream>
