@@ -1,7 +1,7 @@
 /*
- * EXERCICI FINAL PER ENSENYAR COM FUNCIONA TOT PLEGAT
- * EXEMPLE: REGISTRE AMB SENTINELLA I CERCA RECURSIVA RETORNANT UN PAIR.
- * FET PER: ASO
+ * Exercici Final
+ * Exemple: Registre Amb Sentinella i Cerca Recursiva Retornant un Pair.
+ * Fet per: aso
  *
  * ----------------------------------------------------------------------
  * 💡 QUÈ ÉS UN PAIR?
