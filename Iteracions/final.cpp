@@ -1,7 +1,7 @@
 /*
- * EXERCICI FINAL PER ENSENYAR COM FUNCIONA TOT PLEGAT
- * EXEMPLE: CONSTRUIR MUNTANYES ON EL PIC ÉS DE N ALTITUD.
- * FET PER: ASO
+ * Exercici Final
+ * Exemple: Construir Muntanyes on el Pic és de N Altitud.
+ * Fet per: aso
  */
 
 #include <iostream>
