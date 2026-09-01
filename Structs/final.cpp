@@ -1,7 +1,7 @@
 /*
- * EXERCICI FINAL PER ENSENYAR COM FUNCIONA TOT PLEGAT
- * EXEMPLE: FITXA D'AVENTURER AMB STRUCTS I FUNCIONS (AMB LÍMITS).
- * FET PER: ASO
+ * Exercici Final
+ * Exemple: Fitxa D'Aventurer Amb Structs i Funcions (Amb Límits).
+ * Fet per: aso
  */
 
 #include <iostream>
