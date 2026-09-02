@@ -1,0 +1,107 @@
+site_name: Guia Bàsica de C++
+site_author: aso
+repo_url: https://github.com/asomiD-cat/introduction-to-cpp
+
+theme:
+  name: material
+
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+  language: ca
+  features:
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - navigation.sections
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      languages:
+        - locale: ca
+          default: true
+          name: Català
+          site_name: Guia Bàsica de C++ per PRO1
+        - locale: es
+          name: Español
+          site_name: Guía Básica de C++ para PRO1
+          nav_translations:
+            Inici: Inicio
+            "PRIMERA MEITAT": "PRIMERA MITAD"
+            "1. Funcionament C++ i Compilació": "1. Funcionamiento Cpp y Compilación"
+            "2. Iteracions (Bucles)": "2. Iteraciones (Bucles)"
+            "3. Funcions": "3. Funciones"
+            "4. Structs": "4. Structs"
+            "5. Vectors": "5. Vectores"
+            "SEGONA MEITAT (WIP)": "SEGUNDA MITAD (WIP)"
+            "6. Recursivitat": "6. Recursividad"
+            "7. Matrius": "7. Matrices"
+            "8. Algorismes Fonamentals": "8. Algoritmos Fundamentales"
+        - locale: en
+          name: English
+          site_name: Basic C++ Guide for PRO1
+          nav_translations:
+            Inici: Home
+            "PRIMERA MEITAT": "FIRST HALF"
+            "1. Funcionament C++ i Compilació": "1. C++ Basics and Compilation"
+            "2. Iteracions (Bucles)": "2. Iterations (Loops)"
+            "3. Funcions": "3. Functions"
+            "4. Structs": "4. Structs"
+            "5. Vectors": "5. Vectors"
+            "SEGONA MEITAT (WIP)": "SECOND HALF (WIP)"
+            "6. Recursivitat": "6. Recursion"
+            "7. Matrius": "7. Matrices"
+            "8. Algorismes Fonamentals": "8. Fundamental Algorithms"
+
+extra:
+  alternate:
+    - name: '<img src="/assets/catalonia.webp" style="width: 24px; vertical-align: -3px; margin-left: -2px;"> Català'
+      link: /
+      lang: ca
+    - name: 🇪🇸 Español
+      link: /es/
+      lang: es
+    - name: 🇬🇧 English
+      link: /en/
+      lang: en
+
+nav:
+  - Inici: index.md
+  - PRIMERA MEITAT:
+      - "1. Funcionament C++ i Compilació": tema1.md
+      - "2. Iteracions (Bucles)": tema2.md
+      - "3. Funcions": tema3.md
+      - "4. Structs": tema4.md
+      - "5. Vectors": tema5.md
+  - SEGONA MEITAT (WIP):
+      - "6. Recursivitat": tema6.md
+      - "7. Matrius": tema7.md
+      - "8. Algorismes Fonamentals": tema8.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details

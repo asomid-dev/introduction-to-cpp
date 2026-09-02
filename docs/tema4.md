@@ -1,4 +1,4 @@
-# 4. Structs (Registres)
+# Structs (Registres)
 
 ## 1. Què és un Struct?
 
@@ -14,6 +14,8 @@ Un **struct** (o registre) ens permet crear el nostre propi "tipus de dada" agru
 
 **L'analogia de la Fitxa o el DNI:**
 Imagina un `struct` com una fitxa mèdica, un DNI o un contacte del mòbil. És una sola entitat (el contacte) que a dins conté diferents apartats o camps (nom, número de telèfon, correu).
+
+---
 
 ## 2. Com definir un Struct
 
@@ -35,9 +37,11 @@ int main() {
 }
 ```
 
+---
+
 ## 3. Com declarar i accedir a un Struct
 
-Un cop hem creat el "motlle" (el `struct`), ja podem crear variables d'aquest nou tipus dins del `main()` o de les funcions. 
+Un cop hem hem creat el "motlle" (el `struct`), ja podem crear variables d'aquest nou tipus dins del `main()` o de les funcions. 
 
 Per accedir als diferents camps que hi ha a l'interior del `struct`, utilitzem un **punt (`.`)**.
 
@@ -56,6 +60,8 @@ int main() {
 }
 ```
 
+---
+
 ## 4. Llegir Structs de la terminal
 
 També podem utilitzar `cin` per omplir directament els camps d'un `struct`. Només hem de recordar fer-ho camp per camp:
@@ -70,6 +76,8 @@ int main() {
     cout << "Dades guardades correctament!" << endl;
 }
 ```
+
+---
 
 ## 5. Structs i Funcions (Molt Important)
 
@@ -103,7 +111,90 @@ void printStudent(const Student& s) {
 }
 ```
 
---- 
+---
 
-> 📁 **Nota sobre els exemples pràctics:** 
-> A diferència de la resta de temes d'aquest repositori, en aquest apartat **no hi ha una carpeta `Code`** amb múltiples miniexemples. Com que l'ús dels *structs* és un concepte que s'entén millor quan s'aplica sencer, tota la pràctica d'aquest tema la trobaràs integrada directament a l'arxiu **`final.cpp`**. Obre'l per veure un exercici complet que demostra exactament com llegir, modificar i imprimir *structs* utilitzant funcions!
+## 6. Exercici Final
+A continuació pots veure un exemple complet de com utilitzar els structs juntament amb les funcions aplicant el pas per referència i el control de límits.
+
+??? example "final.cpp"
+
+    ```cpp
+    /*
+     * Exercici Final
+     * Exemple: Fitxa D'Aventurer Amb Structs i Funcions (Amb Límits).
+     * Fet per: aso
+     */
+
+    #include <iostream>
+    using namespace std;
+
+    // Definim l'struct a dalt de tot perquè les funcions el puguin conèixer
+    struct Adventurer {
+        string name;
+        int level;
+        double health;
+    };
+
+    // pre: cert
+    // post: llegeix les dades des de la terminal i les guarda a l'struct,
+    // assegurant-se que els valors tinguin sentit.
+    void readAdventurer(Adventurer& a) {
+        cout << "Enter the adventurer's name, level (1-100) and health (max 9999):" << endl;
+        cout << "Example: Frieren 99 1500.5" << endl;
+
+        cin >> a.name >> a.level >> a.health;
+
+        // Control d'errors: repetim la lectura fins que les dades siguin vàlides
+        while (a.level < 1 || a.level > 100 || a.health <= 0 || a.health > 9999.0) {
+            cout << "Error: Invalid stats for " << a.name << ". Level must be 1-100 and Health 1-9999." << endl;
+            cout << "Please enter the data again:" << endl;
+            cin >> a.name >> a.level >> a.health;
+        }
+    }
+
+    // pre: cert
+    // post: imprimeix l'estat actual de l'aventurer
+    void printAdventurer(const Adventurer& a) {
+        cout << "--- ADVENTURER STATUS ---" << endl;
+        cout << "Name:    " << a.name << endl;
+        cout << "Level:   " << a.level << endl;
+        cout << "Health: " << a.health << " HP" << endl;
+    }
+
+    // pre: cert
+    // post: apuja el nivell de l'aventurer en 1 i li augmenta la salut, respectant els límits
+    void levelUp(Adventurer& a) {
+        if (a.level >= 100) {
+            cout << ">> " << a.name << " is already at maximum level! <<" << endl;
+        } else {
+            a.level++; // Pugem 1 nivell
+            a.health = a.health + 50.0; // Donem 50 punts de vida extra
+
+            // Ens assegurem de no sobrepassar la vida màxima per la bonificació
+            if (a.health > 9999.0) {
+                a.health = 9999.0;
+            }
+
+            cout << ">> " << a.name << " leveled up to level " << a.level << "! <<" << endl;
+        }
+    }
+
+    int main() {
+        Adventurer hero; // Declarem la nostra variable del nou tipus struct
+
+        // 1. Emplenem les dades (Modificació) amb el filtre de límits activat
+        readAdventurer(hero);
+        cout << endl;
+
+        // 2. Imprimim la fitxa (Lectura)
+        printAdventurer(hero);
+        cout << endl;
+
+        // 3. Pugem de nivell el personatge (Modificació)
+        levelUp(hero);
+        cout << endl;
+
+        // 4. Tornem a imprimir per comprovar els canvis (Lectura)
+        printAdventurer(hero);
+    }
+    ```
