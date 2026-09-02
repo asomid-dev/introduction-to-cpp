@@ -73,14 +73,14 @@ plugins:
 
 extra:
   alternate:
-    - name: '<img src="/assets/catalonia.webp" style="width: 24px; vertical-align: -3px; margin-left: -2px;"> Català'
-      link: /introduction-to-cpp/
+    - name: '<img src="/introduction-to-cpp/assets/catalonia.webp" style="width: 24px; vertical-align: -3px; margin-left: -2px;"> Català'
+      link: ./
       lang: ca
     - name: 🇪🇸 Español
-      link: /introduction-to-cpp/es/
+      link: ./es/
       lang: es
     - name: 🇬🇧 English
-      link: /introduction-to-cpp/en/
+      link: ./en/
       lang: en
 
 nav:
