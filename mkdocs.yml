@@ -51,7 +51,7 @@ plugins:
             "3. Funcions": "3. Funciones"
             "4. Structs": "4. Structs"
             "5. Vectors": "5. Vectores"
-            "SEGONA MEITAT (WIP)": "SEGUNDA MITAD (WIP)"
+            "SEGONA MEITAT": "SEGUNDA MITAD"
             "6. Recursivitat": "6. Recursividad"
             "7. Matrius": "7. Matrices"
             "8. Algorismes Fonamentals": "8. Algoritmos Fundamentales"
@@ -66,7 +66,7 @@ plugins:
             "3. Funcions": "3. Functions"
             "4. Structs": "4. Structs"
             "5. Vectors": "5. Vectors"
-            "SEGONA MEITAT (WIP)": "SECOND HALF (WIP)"
+            "SEGONA MEITAT": "SECOND HALF"
             "6. Recursivitat": "6. Recursion"
             "7. Matrius": "7. Matrices"
             "8. Algorismes Fonamentals": "8. Fundamental Algorithms"
@@ -91,7 +91,7 @@ nav:
       - "3. Funcions": tema3.md
       - "4. Structs": tema4.md
       - "5. Vectors": tema5.md
-  - SEGONA MEITAT (WIP):
+  - SEGONA MEITAT:
       - "6. Recursivitat": tema6.md
       - "7. Matrius": tema7.md
       - "8. Algorismes Fonamentals": tema8.md
