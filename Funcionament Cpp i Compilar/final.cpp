@@ -13,7 +13,7 @@ int main(){
     bool correct = true;
 
     cout << "Type an integer operation with only one operator (i.e. 24 - 12), valid operators: +, -, *, /, %." << endl;
-    cin >> a >> op >> b; // legim nombre a, operador, nombre b
+    cin >> a >> op >> b; // llegim nombre a, operador, nombre b
 
     int result = 0; // Sempre que un nombre sortirà per la pantalla, per seguretat, l'inicialitzem a 0.
     if (op == '+'){
