@@ -85,7 +85,7 @@ El contingut es divideix per temes en les següents carpetes:
 - **📂 4. Structs:** Com agrupar diferents variables sota un mateix nom per crear tipus de dades personalitzats.
 - **📂 5. Vectors:** Com emmagatzemar informació en seqüències unidimensionals.
 
-### SEGONA MEITAT (WIP)
+### SEGONA MEITAT
 - **📂 6. Recursivitat:** Tècnica on una funció es crida a si mateixa per resoldre problemes més petits.
 - **📂 7. Matrius:** Com emmagatzemar informació en estructures bidimensionals (taules).
 - **📂 8. Algorismes Fonamentals:** Mètodes clàssics per cercar i ordenar dades eficientment (cerca dicotòmica, ordenació per inserció...).
