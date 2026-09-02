@@ -88,7 +88,7 @@ El contingut es divideix per temes en les següents carpetes:
 ### SEGONA MEITAT (WIP)
 - **📂 6. Recursivitat:** Tècnica on una funció es crida a si mateixa per resoldre problemes més petits.
 - **📂 7. Matrius:** Com emmagatzemar informació en estructures bidimensionals (taules).
-- **📂 8. Algorismes Fonamentals WIP:** Mètodes clàssics per cercar i ordenar dades eficientment (cerca dicotòmica, ordenació per inserció...).
+- **📂 8. Algorismes Fonamentals:** Mètodes clàssics per cercar i ordenar dades eficientment (cerca dicotòmica, ordenació per inserció...).
 
 **Cada carpeta té:**
 - 📖 Un arxiu **`TEMARI.md`** amb una explicació dels continguts (teoria).
