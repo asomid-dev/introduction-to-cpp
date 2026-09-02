@@ -88,5 +88,5 @@ Per programar en C++ cal disposar d'un **editor de codi** (com [VSCode](https://
 Per verificar que la instal·lació s'ha realitzat correctament en qualsevol dels sistemes, executa `g++ --version` a la terminal. Hauria de mostrar la versió actual del compilador.
 
 ## Crèdits
-* **Autor:** Dídac Molina (aso).
-* **Agraïments:** A Oriol Vitutia ([@ItssUri](https://github.com/ItssUri)) per la preparació, desenvolupament teòric i implementació de codi de la secció de Matrius.
+* **Autor:** Dídac ([@asomid-dev](https://github.com/asomid-dev)).
+* **Agraïments:** A Uri ([@ItssUri](https://github.com/ItssUri)) per la preparació, desenvolupament teòric i implementació de codi de la secció de Matrius.

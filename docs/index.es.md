@@ -88,5 +88,5 @@ Para programar en C++ es necesario disponer de un **editor de código** (como [V
 Para verificar que la instalación se ha realizado correctamente en cualquiera de los sistemas, ejecuta `g++ --version` en la terminal. Debería mostrar la versión actual del compilador.
 
 ## Créditos
-* **Autor:** Dídac Molina (aso).
-* **Agradecimientos:** A Oriol Vitutia ([@ItssUri](https://github.com/ItssUri)) por la preparación, desarrollo teórico e implementación de código de la sección de Matrices.
+* **Autor:** Dídac ([@asomid-dev](https://github.com/asomid-dev)).
+* **Agradecimientos:** A Uri ([@ItssUri](https://github.com/ItssUri)) por la preparación, desarrollo teórico e implementación de código de la sección de Matrices.

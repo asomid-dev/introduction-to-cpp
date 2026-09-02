@@ -88,5 +88,5 @@ To program in C++, you need a **code editor** (like [VSCode](https://code.visual
 To verify that the installation was successful on any system, run `g++ --version` in the terminal. It should display the current compiler version.
 
 ## Credits
-* **Author:** Dídac Molina (aso).
-* **Special thanks:** To Oriol Vitutia ([@ItssUri](https://github.com/ItssUri)) for the preparation, theoretical development, and code implementation of the Matrices section.
+* **Author:** Dídac ([@asomid-dev](https://github.com/asomid-dev)).
+* **Special thanks:** To Uri ([@ItssUri](https://github.com/ItssUri)) for the preparation, theoretical development, and code implementation of the Matrices section.
