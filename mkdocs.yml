@@ -73,13 +73,13 @@ plugins:
 
 extra:
   alternate:
-    - name: '<img src="/assets/catalonia.webp" style="width: 24px; vertical-align: -3px; margin-left: -2px;"> Català'
+    - name: '<img src="/assets/ca.webp" style="width: 24px; vertical-align: -3px; margin-left: -2px;"> Català'
       link: ./
       lang: ca
-    - name: 🇪🇸 Español
+    - name: '<img src="/assets/es.png" style="width: 24px; vertical-align: -3px; margin-left: -2px;"> Español'
       link: ./es/
       lang: es
-    - name: 🇬🇧 English
+    - name: '<img src="/assets/gb.png" style="width: 24px; vertical-align: -3px; margin-left: -2px;"> English'
       link: ./en/
       lang: en
 
