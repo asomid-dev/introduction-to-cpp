@@ -1,7 +1,7 @@
 site_name: Guia Bàsica de C++
 site_author: aso
 repo_url: https://github.com/asomid-dev/introduction-to-cpp
-site_url: https://asomid-dev.github.io/introduction-to-cpp/
+site_url: https://pro1.asomid.cat
 
 theme:
   name: material
@@ -73,7 +73,7 @@ plugins:
 
 extra:
   alternate:
-    - name: '<img src="/introduction-to-cpp/assets/catalonia.webp" style="width: 24px; vertical-align: -3px; margin-left: -2px;"> Català'
+    - name: '<img src="/assets/catalonia.webp" style="width: 24px; vertical-align: -3px; margin-left: -2px;"> Català'
       link: ./
       lang: ca
     - name: 🇪🇸 Español
