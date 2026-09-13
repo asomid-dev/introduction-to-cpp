@@ -146,6 +146,15 @@ Quan és un `cin`, posem els valors que ens demanen i premem la tecla Enter per 
 | Residu d'una divisió | `%` |
 | Assignació | `=` |
 
+### Operadors d'Assignació Composta
+| Tipus | Declaració | Equivalent |
+| :--- | :--- | :--- |
+| Suma i assignació | `+=` | `a += b` -> `a = a + b` |
+| Resta i assignació | `-=` | `a -= b` -> `a = a - b` |
+| Multiplicació i assignació | `*=` | `a *= b` -> `a = a * b` |
+| Divisió i assignació | `/=` | `a /= b` -> `a = a / b` |
+| Residu i assignació | `%=` | `a %= b` -> `a = a % b` |
+
 > **NOTA:** La divisió `/`, si dividim enters, retornarà la part entera. En canvi, si dividim doubles, retornarà la divisió normal. Per tant, no podrem fer mai `double % double`, ja que la pròpia divisió de decimals ja afegeix el residu.
 
 ### Operadors Compostos i d'Increment
