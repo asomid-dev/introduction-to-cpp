@@ -173,13 +173,13 @@
         
           <li class="md-select__item">
             <a href="../../es/tema3/" hreflang="es" class="md-select__link">
-              <img src="/assets/es.png" style="width: 24px; vertical-align: -3px; margin-left: -2px;"> Español
+              <img src="/assets/es.png" style="width: 24px; vertical-align: -6px; margin-left: -2px;"> Español
             </a>
           </li>
         
           <li class="md-select__item">
             <a href="./" hreflang="en" class="md-select__link">
-              <img src="/assets/gb.png" style="width: 24px; vertical-align: -3px; margin-left: -2px;"> English
+              <img src="/assets/gb.png" style="width: 24px; vertical-align: -6px; margin-left: -2px;"> English
             </a>
           </li>
         
@@ -892,20 +892,24 @@
 <li><strong>return:</strong> The keyword that sends the result out of the function. Once <code>return</code> is executed, the function stops immediately.</li>
 </ul>
 <h2 id="parameters">Parameters</h2>
-<p>Parameters can be passed by:
-- <strong>Value:</strong> A temporary copy is made, and it does not modify anything in <code>main</code>.
+<p>Parameters can be passed by:</p>
+<ul>
+<li>
+<p><strong>Value:</strong> A temporary copy is made, and it does not modify anything in <code>main</code>.
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">//pre: ...</span>
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="c1">//post: ...</span>
 </span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="kt">int</span><span class="w"> </span><span class="nf">imAFunc</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">b</span><span class="p">){</span><span class="w"> </span>
 </span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="c1">// ...</span>
 </span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="p">}</span>
 </span></code></pre></div></p>
-<ul>
-<li><strong>Reference:</strong> No copy is made, meaning we modify the actual parameter received from <code>main</code>.
+</li>
+<li>
+<p><strong>Reference:</strong> No copy is made, meaning we modify the actual parameter received from <code>main</code>.
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kt">void</span><span class="w"> </span><span class="nf">imAFunc</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="o">&amp;</span><span class="n">a</span><span class="p">){</span><span class="w"> </span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="c1">// if we modify 'a', it also changes in main.</span>
 </span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="p">}</span>
-</span></code></pre></div></li>
+</span></code></pre></div></p>
+</li>
 </ul>
 <hr />
 <h2 id="3-procedures-void">3. Procedures (void)</h2>

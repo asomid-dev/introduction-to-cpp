@@ -173,13 +173,13 @@
         
           <li class="md-select__item">
             <a href="../es/tema3/" hreflang="es" class="md-select__link">
-              <img src="/assets/es.png" style="width: 24px; vertical-align: -3px; margin-left: -2px;"> Español
+              <img src="/assets/es.png" style="width: 24px; vertical-align: -6px; margin-left: -2px;"> Español
             </a>
           </li>
         
           <li class="md-select__item">
             <a href="../en/tema3/" hreflang="en" class="md-select__link">
-              <img src="/assets/gb.png" style="width: 24px; vertical-align: -3px; margin-left: -2px;"> English
+              <img src="/assets/gb.png" style="width: 24px; vertical-align: -6px; margin-left: -2px;"> English
             </a>
           </li>
         
@@ -892,20 +892,24 @@
 <li><strong>return:</strong> La paraula clau que retorna el resultat cap a fora de la funció. Un cop s'executa el <code>return</code>, la funció s'atura immediatament.</li>
 </ul>
 <h2 id="parametres">Paràmetres</h2>
-<p>Els paràmetres es poden passar per:
-- <strong>Valor:</strong> es fa una còpia temporal i no modifica res del <code>main</code>.
+<p>Els paràmetres es poden passar per:</p>
+<ul>
+<li>
+<p><strong>Valor:</strong> es fa una còpia temporal i no modifica res del <code>main</code>.
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">//pre: ...</span>
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="c1">//post: ...</span>
 </span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="kt">int</span><span class="w"> </span><span class="nf">socUnaFunc</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">b</span><span class="p">){</span><span class="w"> </span>
 </span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="c1">// ...</span>
 </span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="p">}</span>
 </span></code></pre></div></p>
-<ul>
-<li><strong>Referència:</strong> no fa cap còpia, és a dir, modifiquem el paràmetre rebut del <code>main</code>.
+</li>
+<li>
+<p><strong>Referència:</strong> no fa cap còpia, és a dir, modifiquem el paràmetre rebut del <code>main</code>.
 <div class="language-cpp highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kt">void</span><span class="w"> </span><span class="nf">socUnaFunc</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="o">&amp;</span><span class="n">a</span><span class="p">){</span><span class="w"> </span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="c1">// si modifiquem 'a', també es modifica al main.</span>
 </span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="p">}</span>
-</span></code></pre></div></li>
+</span></code></pre></div></p>
+</li>
 </ul>
 <hr />
 <h2 id="3-procediments-void">3. Procediments (void)</h2>
